@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './styles/global.css';
+
+import Cadastro from './pages/Cadastro';
+
 ReactDOM.render(
   <React.StrictMode>
-    <h2>PetFood</h2>
+    <Cadastro />
   </React.StrictMode>,
   document.getElementById('root')
 );
