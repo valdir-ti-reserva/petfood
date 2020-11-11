@@ -1,12 +1,12 @@
-import Logo from '../../assets/images/logo-white.png';
+import Header from '../../components/Header';
+
 import Illustration from '../../assets/images/illustration.png';
 
 const Cadastro = () => {
   return (
     <div className="container-fluid h-100 bg-primary">
-      <div className="col-12">
-        <img src={Logo} alt="Logo"/>
-      </div>
+      
+      <Header whiteVersion />
 
       <div className="row">
         
