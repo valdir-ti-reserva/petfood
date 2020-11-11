@@ -24,8 +24,21 @@ input[type='date']:disabled {
   font-size: 15px;
 }
 
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
 .bg-secondary {
   background-color: var(--secondary) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
 }
 
 .btn-secondary,
