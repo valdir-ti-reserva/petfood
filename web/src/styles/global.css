@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 :root {
-  --primary-color: #06d6a0;
-  --secondary: #fa643d
+  --primary-color: 6,214,160;
+  --secondary: 250,100,61;
 ;}
 
 input[type='text'],
@@ -25,11 +25,11 @@ input[type='date']:disabled {
 }
 
 .bg-primary {
-  background-color: var(--primary-color) !important;
+  background-color: rgb(var(--primary-color)) !important;
 }
 
 .bg-secondary {
-  background-color: var(--secondary) !important;
+  background-color: rgb(var(--secondary)) !important;
 }
 
 .btn-primary,
@@ -37,8 +37,8 @@ input[type='date']:disabled {
 .btn-primary:active,
 .btn-primary:disabled,
 .btn-primary:hover {
-  background-color: var(--primary-color) !important;
-  border-color: var(--primary-color) !important;
+  background-color: rgb(var(--primary-color)) !important;
+  border-color: rgb(var(--primary-color)) !important;
 }
 
 .btn-secondary,
@@ -46,8 +46,8 @@ input[type='date']:disabled {
 .btn-secondary:active,
 .btn-secondary:disabled,
 .btn-secondary:hover {
-  background-color: var(--secondary) !important;
-  border-color: var(--secondary) !important;
+  background-color: rgb(var(--secondary)) !important;
+  border-color: rgb(var(--secondary)) !important;
 }
 
 html, body{
@@ -58,7 +58,21 @@ html, body{
 }
 
 .bg-primary{
-  background-color: var(--primary-color) !important;
+  background-color: rgb(var(--primary-color)) !important;
+}
+
+.badge {
+  font-weight: lighter;
+}
+
+.badge.badge-primary {
+  background: rgba(var(--primary-color), 0.3);
+  color: rgb(var(--primary-color));
+}
+
+.badge.badge-secondary {
+  background: rgba(var(--secondary), 0.3);
+  color: rgb(var(--secondary));
 }
 
 .box{

@@ -5,10 +5,11 @@ import './styles/global.css';
 
 import Cadastro from './pages/Cadastro';
 import Checkout from './pages/Checkout';
+import Petshop from './pages/Petshop';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Checkout />
+    <Petshop />
   </React.StrictMode>,
   document.getElementById('root')
 );
