@@ -22,7 +22,8 @@
 .product-list button {
   position: absolute;
   right: 30px;
-  padding: 1px 14px;
-  font-size: 25px;
-  margin-top: 20px;
+  /* padding:1px 12px; */
+  /* font-size: 25px; */
+  /* margin-top: 20px; */
+  /* line-height: 35px; */
 }

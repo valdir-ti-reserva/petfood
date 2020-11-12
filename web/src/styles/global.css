@@ -32,6 +32,10 @@ input[type='date']:disabled {
   background-color: rgb(var(--secondary)) !important;
 }
 
+.btn-secondary.rounded-circle {
+  padding: 6px 14px;
+}
+
 .btn-primary,
 .btn-primary:focus,
 .btn-primary:active,
