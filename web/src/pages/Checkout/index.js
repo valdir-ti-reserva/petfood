@@ -5,7 +5,7 @@ import ProductList from '../../components/Products/List';
 const Checkout = () => {
   return (
     <div className="h-100">
-      <Header />
+      <Header hideCart />
 
       <div className="container mt-4">
        

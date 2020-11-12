@@ -2,7 +2,7 @@ import './styles.css'
 import Logo from '../../assets/images/logo-white.png';
 import LogoGreen from '../../assets/images/logo.png';
 
-const Header = ({whiteVersion}) => {
+const Header = ({whiteVersion, hideCart}) => {
 
   const openDock = () => {
     const event = new CustomEvent('openCart');
@@ -14,10 +14,12 @@ const Header = ({whiteVersion}) => {
       <header className="py-4 px-4 text-center">
         <img src={whiteVersion?Logo:LogoGreen} alt="Logo"/>
       </header>
-      <button className="btn btn-secondary card-button" onClick={() => openDock()}>
-        <span className="mdi mdi-cart"></span>
-        &nbsp;2 Itens
-      </button>
+      {!hideCart && (
+        <button className="btn btn-secondary card-button" onClick={() => openDock()}>
+          <span className="mdi mdi-cart"></span>
+          &nbsp;2 Itens
+        </button>
+      )}
     </div>
   )
 }
