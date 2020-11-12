@@ -1,5 +1,6 @@
 import Header from '../../components/Header';
 import PetloveLogo from '../../assets/images/logo-petlove.png';
+import ProductCard from '../../components/Products/Card'
 
 import './styles.css';
 
@@ -25,7 +26,11 @@ const Petshop = () => {
             <label className="badge badge-primary">Frete Grátis</label>
           </div>
           <div className="col-10">
-
+            <h5>Produtos</h5>
+            <br/>
+            <div className="row">
+              {[1,2,3,4,5,6,7,8,9].map(p=><ProductCard />)}              
+            </div>
           </div>
         </div>
       </div>
