@@ -7,11 +7,12 @@ import Cadastro from './pages/Cadastro';
 import Checkout from './pages/Checkout';
 import Petshop from './pages/Petshop';
 import Sidebar from './components/Sidebar';
+import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
     <Sidebar />
-    <Petshop />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
