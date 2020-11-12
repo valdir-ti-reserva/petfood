@@ -8,6 +8,10 @@ const Header = ({whiteVersion}) => {
       <header className="py-4 px-4 text-center">
         <img src={whiteVersion?Logo:LogoGreen} alt="Logo"/>
       </header>
+      <button className="btn btn-secondary card-button">
+        <span className="mdi mdi-cart"></span>
+        &nbsp;2 Itens
+      </button>
     </div>
   )
 }
